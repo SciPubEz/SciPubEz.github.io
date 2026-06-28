@@ -1,0 +1,13 @@
+---
+layout: default
+title: 认识agent
+---
+
+# 1. 什么是 Agent？
+
+Agent 可以理解为一种能够围绕目标进行多步决策和行动的智能系统。我们可以对一句话定义为：Agent 是一个能感知环境，并根据感知结果采取行动的系统。
+
+其工作的workflow应该是
+
+Environment → Observation → Agent → Action → Environment
+
