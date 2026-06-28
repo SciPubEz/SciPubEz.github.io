@@ -86,3 +86,28 @@ action = argmax utility(action)
 ## 2.7 Multi-Agent System：多智能体系统
 
 多个 agent 在同一个环境中交互。共同影响 Environment
+
+# 3 LLM Agent 
+
+一个完整的 LLM Agent 通常由这些部分构成：LLM Agent = LLM + Goal + State/Memory + Tools + Action Space + Observation + Controller + Feedback + Safety
+
+# 3.1 LLM 
+
+负责：
+
+理解用户目标；
+分析当前状态；
+生成计划；
+选择下一步动作；
+解释工具返回结果；
+决定什么时候结束任务。
+相当于传统agent里的policy
+
+# 3.2 Goal 
+
+# 3.3 State / Context
+
+State 表示 agent 当前知道什么。
+
+在传统 agent 里，state 可能是坐标、速度、地图。
+在 LLM Agent 里，state 通常是文本上下文。
