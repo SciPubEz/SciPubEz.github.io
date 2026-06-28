@@ -3,10 +3,25 @@ layout: default
 title: 首页
 ---
 
-# JoochinGGG的学习笔记
+# Joo 的学习笔记
 
-这里记录我的学习、科研、编程和量化交易笔记。
+这里记录我的学习，主要是科研、编程、金融和 AI 学习笔记。
 
-## 笔记目录
+## 目录
 
-- [量化交易学习笔记](./quant.html)
+### AI 
+
+- [Agent 学习笔记](./agent.html)
+
+### 金融
+
+- [金融学习笔记](./economic.html)
+
+### 编程
+
+### 科研
+
+- UAV Networks
+- Directional Antenna
+- Routing Protocols
+- Paper Reading
